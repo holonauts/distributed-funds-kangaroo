@@ -1,6 +1,6 @@
 [package]
 name = "holochain-kangaroo" # distributed-funds
-version = "0.0.0" # distributed-funds -- Choose wisely, see "Note on Versioning" in README
+version = "0.1.0" # distributed-funds -- Choose wisely, see "Note on Versioning" in README
 description = "A Tauri App"
 authors = ["you"]
 license = ""

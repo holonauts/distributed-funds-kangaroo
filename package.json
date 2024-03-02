@@ -1,7 +1,7 @@
 {
   "name": "distributed-funds",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "kangaroo": "npm run dist && npm run tauri build",
