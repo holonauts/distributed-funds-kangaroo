@@ -46,7 +46,7 @@
       ],
       "externalBin": [
         "bins/holochain-v0.2.6",
-        "bins/lair-keystore-v0.3.0"
+        "bins/lair-keystore-v0.4.2"
       ],
       "macOS": {
         "frameworks": [],

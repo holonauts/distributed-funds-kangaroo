@@ -64,7 +64,7 @@ pub async fn launch_lair_keystore_process(
 
 
     // NEW_VERSION Check whether lair-keystore version needs to get updated
-    let (mut lair_rx, mut command_child) = Command::new_sidecar("lair-keystore-v0.3.0")
+    let (mut lair_rx, mut command_child) = Command::new_sidecar("lair-keystore-v0.4.2")
         .or(Err(LairKeystoreError::LaunchChildError(
             LaunchChildError::BinaryNotFound,
         )))?
@@ -118,7 +118,7 @@ pub async fn launch_lair_keystore_process(
     });
 
     // NEW_VERSION Check whether lair-keystore version needs to get updated
-    let output = Command::new_sidecar("lair-keystore-v0.3.0")
+    let output = Command::new_sidecar("lair-keystore-v0.4.2")
         .or(Err(LairKeystoreError::LaunchChildError(
             LaunchChildError::BinaryNotFound,
         )))?
@@ -146,7 +146,7 @@ pub async fn launch_lair_keystore_process(
 
 pub async fn initialize_keystore(keystore_dir: PathBuf, password: String) -> Result<(), LairKeystoreError> {
 // NEW_VERSION Check whether lair-keystore version needs to get updated
-    let (mut lair_rx, mut command_child) = Command::new_sidecar("lair-keystore-v0.3.0")
+    let (mut lair_rx, mut command_child) = Command::new_sidecar("lair-keystore-v0.4.2")
         .or(Err(LairKeystoreError::LaunchChildError(
         LaunchChildError::BinaryNotFound,
         )))?
