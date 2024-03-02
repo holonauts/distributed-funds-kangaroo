@@ -6,7 +6,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "replace-me",
+    "productName": "Distributed Funds",
     "version": "0.0.0"
   },
   "tauri": {
@@ -21,7 +21,7 @@
       }
     },
     "cli": {
-      "description": "Running replace-me from the command line",
+      "description": "Running Distributed Funds from the command line",
       "args": [
         {
           "name": "profile",
@@ -36,7 +36,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "replace-me.with-unique-identifier.in-reverse-domain-notation",
+      "identifier": "com.holonauts.distributed-funds",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
