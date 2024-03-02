@@ -607,7 +607,7 @@ checksum = "23285ad32269793932e830392f2fe2f83e26488fd3ec778883a93c8323735780"
 dependencies = [
  "arrayref",
  "arrayvec 0.7.4",
- "constant_time_eq 0.3.0",
+ "constant_time_eq 0.3.6",
 ]
 
 [[package]]
@@ -1077,7 +1077,7 @@ checksum = "245097e9a4535ee1e3e3931fcfcd55a796a44c643e8596ff6566d68f09b87bbc"
 
 [[package]]
 name = "constant_time_eq"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7144d30dcf0fafbce74250a3963025d8d52177934239851c917d29f1df280c2"
 
@@ -1972,7 +1972,7 @@ checksum = "25cbce373ec4653f1a01a31e8a5e5ec0c622dc27ff9c4e6606eefef5cbbed4a5"
 
 [[package]]
 name = "fdeflate"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d329bdeac514ee06249dabc27877490f17f5d371ec693360768b838e19f3ae10"
 dependencies = [
@@ -2396,7 +2396,7 @@ dependencies = [
 
 [[package]]
 name = "ghost_actor"
-version = "0.3.0-alpha.6"
+version = "0.3.6-alpha.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8a34addaffa7d2c80637807444f171c646cad7549fcdac8019544034678f76d5"
 dependencies = [
@@ -2854,7 +2854,7 @@ dependencies = [
 
 [[package]]
 name = "holochain"
-version = "0.2.3-beta-rc.1"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "59ba9173613ea5047d6b42cd5ed01a36b98b9bb540339fea60622ac3d6b848b4"
 dependencies = [
@@ -2873,7 +2873,7 @@ dependencies = [
  "futures",
  "get_if_addrs",
  "getrandom 0.2.10",
- "ghost_actor 0.3.0-alpha.6",
+ "ghost_actor 0.3.6-alpha.6",
  "hdk",
  "holo_hash",
  "holochain_cascade",
@@ -2901,7 +2901,7 @@ dependencies = [
  "mockall",
  "mr_bundle",
  "must_future",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "num_cpus",
  "once_cell",
  "one_err",
@@ -2982,7 +2982,7 @@ dependencies = [
  "fallible-iterator",
  "fixt",
  "futures",
- "ghost_actor 0.3.0-alpha.6",
+ "ghost_actor 0.3.6-alpha.6",
  "hdk",
  "hdk_derive",
  "holo_hash",
@@ -3007,7 +3007,7 @@ dependencies = [
 [[package]]
 name = "holochain_client"
 version = "0.4.4"
-source = "git+https://github.com/matthme/holochain-client-rust/?branch=holochain-0.2.3-beta-rc.1#9aa115dfd938b9910026c93be8aec4de5fab361c"
+source = "git+https://github.com/matthme/holochain-client-rust/?branch=holochain-0.2.6#9aa115dfd938b9910026c93be8aec4de5fab361c"
 dependencies = [
  "again",
  "anyhow",
@@ -3024,7 +3024,7 @@ dependencies = [
 
 [[package]]
 name = "holochain_conductor_api"
-version = "0.2.3-beta-rc.1"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "142607decff49b58ef4eaf3ab919a9d20a2a794b54d84d4fc3c06db3e30266ba"
 dependencies = [
@@ -3103,7 +3103,7 @@ dependencies = [
  "derive_more",
  "fixt",
  "futures",
- "ghost_actor 0.3.0-alpha.6",
+ "ghost_actor 0.3.6-alpha.6",
  "holo_hash",
  "holochain_keystore",
  "holochain_serialized_bytes 0.0.51",
@@ -3200,7 +3200,7 @@ dependencies = [
  "kitsune_p2p",
  "lazy_static",
  "must_future",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "num-traits",
  "num_cpus",
  "once_cell",
@@ -3253,7 +3253,7 @@ dependencies = [
  "holochain_zome_types",
  "kitsune_p2p",
  "mockall",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "one_err",
  "parking_lot 0.10.2",
  "rand 0.8.5",
@@ -3322,7 +3322,7 @@ dependencies = [
  "mockall",
  "mr_bundle",
  "must_future",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "one_err",
  "parking_lot 0.10.2",
  "rand 0.8.5",
@@ -3432,7 +3432,7 @@ dependencies = [
  "ghost_actor 0.4.0-alpha.5",
  "holochain_serialized_bytes 0.0.51",
  "must_future",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "net2",
  "serde",
  "serde_bytes",
@@ -3465,7 +3465,7 @@ dependencies = [
  "kitsune_p2p_block",
  "kitsune_p2p_dht",
  "kitsune_p2p_timestamp",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "num_enum",
  "once_cell",
  "paste",
@@ -3660,7 +3660,7 @@ dependencies = [
 
 [[package]]
 name = "ico"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e3804960be0bb5e4edb1e1ad67afd321a9ecfd875c3e65c099468fd2717d7cae"
 dependencies = [
@@ -3971,7 +3971,7 @@ dependencies = [
 
 [[package]]
 name = "jni-sys"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8eaf4bc02d17cbdd7ff4c7438cafcdf7fb9a4613313ad11b4f8fefe7d3fa0130"
 
@@ -4010,7 +4010,7 @@ dependencies = [
  "derive_more",
  "fixt",
  "futures",
- "ghost_actor 0.3.0-alpha.6",
+ "ghost_actor 0.3.6-alpha.6",
  "governor",
  "holochain_trace",
  "itertools 0.10.5",
@@ -4176,7 +4176,7 @@ dependencies = [
  "holochain_trace",
  "kitsune_p2p_transport_quic",
  "kitsune_p2p_types",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "parking_lot 0.11.2",
  "rmp-serde 0.15.5",
  "rustls 0.20.9",
@@ -4230,7 +4230,7 @@ dependencies = [
  "base64 0.13.1",
  "derive_more",
  "futures",
- "ghost_actor 0.3.0-alpha.6",
+ "ghost_actor 0.3.6-alpha.6",
  "holochain_trace",
  "kitsune_p2p_bin_data",
  "kitsune_p2p_block",
@@ -4238,7 +4238,7 @@ dependencies = [
  "kitsune_p2p_dht_arc",
  "lair_keystore_api",
  "lru 0.8.1",
- "nanoid 0.3.0",
+ "nanoid 0.3.6",
  "once_cell",
  "parking_lot 0.11.2",
  "paste",
@@ -4293,7 +4293,7 @@ dependencies = [
 
 [[package]]
 name = "lair_keystore"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "843c7dbcbc8d75eef0b30397a7eb0d04549aabeff4ea69ebd272aea991555746"
 dependencies = [
@@ -4309,7 +4309,7 @@ dependencies = [
 
 [[package]]
 name = "lair_keystore_api"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5829f25d0eab6309ae4307aa645f123a64e568a41ec17c358dcbd65dec207e10"
 dependencies = [
@@ -4936,7 +4936,7 @@ dependencies = [
 
 [[package]]
 name = "nanoid"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a6226bc4e142124cb44e309a37a04cd9bb10e740d8642855441d3b14808f635e"
 dependencies = [
@@ -4991,7 +4991,7 @@ checksum = "27b02d87554356db9e9a873add8782d4ea6e3e58ea071a9adb9a2e8ddb884a8b"
 
 [[package]]
 name = "ndk-sys"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6e5a6ae77c8ee183dcbbba6150e2e6b9f3f4196a7666c02a715a95692ec1fa97"
 dependencies = [
@@ -5082,7 +5082,7 @@ checksum = "44a1290799eababa63ea60af0cbc3f03363e328e58f32fb0294798ed3e85f444"
 
 [[package]]
 name = "normalize-line-endings"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "61807f77802ff30975e01f4f071c8ba10c022052f98b3294119f3e615d13e5be"
 
@@ -5303,7 +5303,7 @@ dependencies = [
 
 [[package]]
 name = "opaque-debug"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5"
 
@@ -6953,7 +6953,7 @@ dependencies = [
 
 [[package]]
 name = "sd-notify"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0cd08a21f852bd2fe42e3b2a6c76a0db6a95a5b5bd29c0521dd0b30fa1712ec8"
 
@@ -7313,7 +7313,7 @@ dependencies = [
 
 [[package]]
 name = "shrinkwraprs"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e63e6744142336dfb606fe2b068afa2e1cca1ee6a5d8377277a92945d81fa331"
 dependencies = [
@@ -8137,7 +8137,7 @@ dependencies = [
 
 [[package]]
 name = "terminal_size"
-version = "0.3.0"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "21bebf2b7c9e0a515f6e0f8c51dc0f8e4696391e6f1ff30379559f8365fb0df7"
 dependencies = [

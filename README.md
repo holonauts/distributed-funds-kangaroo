@@ -4,7 +4,7 @@ Put your Holochain App in this Kangaroo's tauri pouch and let it run around.
 
 This repository let's you easily convert your Holochain app into a standalone tauri-based cross-platform Desktop app.
 
-**Holochain Version**: The Kangaroo currently comes with Holochain holochain-v0.2.3-beta-rc.1. 
+**Holochain Version**: The Kangaroo currently comes with Holochain holochain-v0.2.6. 
 
 **Note**: Support for non-breaking updates to happ coordinator zomes is currently not built into the kangaroo.
 
@@ -21,7 +21,7 @@ Using it as a template allows you to start with a clean git history and the cont
 
 5. Add your `[your-project].happ` file and your `ui.zip` file to the `./pouch` folder
 
-6. Search the repository for `distributed-funds` and replace it with your project's name or follow the instructions in the comments if provided. **Note:** The `productName` in `src-tauri/tauri.conf.json` must not contain any dots or parentheses (and likely other special characters).
+6. Search the repository for `replace-me` and replace it with your project's name or follow the instructions in the comments if provided. **Note:** The `productName` in `src-tauri/tauri.conf.json` must not contain any dots or parentheses (and likely other special characters).
 
 7. Add your app's icon: If you have an icon for your app, make sure to have it as a 1024x1024 pixel `.png` format and run `npm run tauri icon [path-to-your-1024x1024-png]` (https://tauri.app/v1/guides/features/icons). This will generate all the necessary icons and store it in `src-tauri/icons`
 
