@@ -345,7 +345,7 @@ pub async fn install_app_if_necessary(
             .map_err(|e| AppError::ConductorApiError(e))?;
 
         // replace-me --- replace the path with the correct path to your .happ file here
-        let app_bundle = AppBundle::decode(include_bytes!("../../pouch/hc-stress-test.happ"))
+        let app_bundle = AppBundle::decode(include_bytes!("../../pouch/distributed-funds.happ"))
             .map_err(|e| AppError::AppBundleError(e))?;
 
         admin_ws
